@@ -1,0 +1,379 @@
+h/*
+Theme Name: SantaWay Atualização cadastrais
+Author: MK(rj)
+*/
+body{
+  overflow: hidden;
+}
+
+
+
+
+/*tela1*/
+#tela1{
+   background-image: url("../img/fundo1.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: 20%;
+    text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+#logo-home{
+  text-align: center;
+  margin-top: 17%;
+}
+.tela-grande{
+  display: block;
+  margin-top: 2%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.logo-form img{
+  display: none;
+}
+/*tela1*/
+#telacard{
+   background-image: url("../img/fundo3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: 20%;
+    text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+#logo-home{
+  text-align: center;
+  margin-top: 17%;
+}
+.tela-grande{
+  display: block;
+  margin-top: 2%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.logo-form img{
+  display: none;
+}
+/*tela1*/
+#telainfo{
+   background-image: url("../img/fundo4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: 20%;
+    text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+#logo-home{
+  text-align: center;
+  margin-top: 17%;
+}
+.tela-grande{
+  display: block;
+  margin-top: 2%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.logo-form img{
+  display: none;
+}
+/*tela2*/
+#tela2{
+  background: #fff;
+}
+#tela2 #logo-home2{
+  display: block;
+}
+#logo-home2{
+  text-align: center;
+  margin-top: 17%;
+}
+.form-home{
+  display: none;
+}
+/*tela3*/
+#tela3{
+  background: #AE2D2E;
+}
+#tela3 #logo-home2{
+  display: block;
+}
+.form-home2{
+  display: none;
+}
+
+
+/*tela4*/
+#tela4{
+  background-image: url("../img/fundo3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo-fim{
+  text-align: center;
+  margin-top: 15%;
+}
+.mensagem-sucesso{
+  text-align: center;
+}
+.mensagem-sucesso h2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -50%;
+}
+.mensagem-sucesso p{
+  color: #fff;
+}
+
+/*rodape*/
+#rodape{
+  display: none;
+}
+
+
+
+/*tela5*/
+#tela5{
+   background-image: url("../img/fundo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    margin-top: 20%;
+    text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+#logo-home{
+  text-align: center;
+  margin-top: 17%;
+}
+.tela-grande{
+  display: block;
+  margin-top: 2%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.logo-form img{
+  display: none;
+}
+
+/*input*/
+h1, input::-webkit-input-placeholder, button {
+  font-family: 'roboto', sans-serif;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+input {
+  margin-top: 4%;
+  width: 100%;
+  border: none;
+  font-size:14px;
+  padding-bottom: 3%;
+  border-bottom: solid 1px #D1D1D1;
+  background: transparent;
+  color: #00CFD5;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+/*  float: left;*/
+}
+::-webkit-input-placeholder {
+  color: #676767;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #676767;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #676767;  
+}
+:-ms-input-placeholder {  
+    color: #676767;  
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+  border-bottom: solid 1px #00CFD5;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #D1D1D1;
+  font-size: 11px;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+input#validade{
+  width: 50%;
+}
+input#cvv{
+  width: 48%;
+}
+
+
+/*mobile*/
+@media (max-width: 800px){
+  .logo{
+      margin-top: 65%;
+      text-align: center;
+  }
+  .logo img{
+    width: 100%;
+  }
+  #tela2{
+    background-image: url("../img/fundo2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #tela2 #logo-home{
+    display: none;
+  }
+  .logo-form img{
+    display: block;
+    width: 80%;
+  }
+  .logo-form{
+    padding-top: 10%;
+  }
+  .form-home{
+    display: block;
+    margin-top: 50%;
+    
+    background-color: transparent;
+    padding: 4%;
+    border-radius: 10px;
+  }
+  
+  input[type="submit"]{
+    border: solid 1px #d1d1d1;
+    border-radius: 30px;
+    padding-top: 6px;
+    background: #d1d1d1;
+    color: #757575;
+    height: 45px;
+    width:80%;
+    font-weight: bold;
+    font-size:14px;
+    margin-left:28px;
+  }
+
+  input[type="button"]{
+    border: solid 1px #8bd0ca;
+    border-radius: 30px;
+    padding-top: 3px;
+    background: transparent;
+    color: #8bd0ca;
+    height: 25px;
+    width:75%;
+    font-weight: bold;
+    font-size:12px;
+    margin-left:40px;
+    margin-top:-20px;
+
+  }
+  #tela3{
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #tela3 #logo-home2{
+    display: none;
+  }
+  .logo-form img{
+    display: block;
+    width: 80%;
+  }
+  .logo-form2{
+    padding-top: 10%;
+  }
+  .form-home2{
+    display: block;
+    margin-top: 50%;
+    background-color: transparent;
+    padding: 6%;
+    border-radius: 10px;
+  }
+  .logo-form2 img{
+    display: block;
+    width: 80%;
+  }
+  .logo-fim{
+    margin-top: 51%;
+    text-align: center;
+  }
+  .mensagem-sucesso h2{
+    color: #EF1707;
+    font-size: 20px;
+    margin-top: 100%;
+    font-weight: bold;
+  }
+  .mensagem-sucesso p{
+    color: #EF1707;
+    margin-top: 8%;
+  }
+  #rodape{
+    display: block;
+    margin-top: 3%;
+
+  }
+  .internet-banking{
+    width: 42%;
+    padding-left: 3%;
+  }
+  .ambiente-seguro{
+    width: 49%;
+    padding-left: 14%;
+  }
+
+  @media (max-width: 280px){
+    body{
+      overflow: hidden;
+    }
+    input#cvv {
+        width: 100%;
+    }
+    input#validade {
+        width: 100%;
+    }
+    .form-home{
+      margin-top: 2%;
+      margin-bottom: 0;
+    }
+    .form-home2{
+      margin-top: 0;
+    }
+    input{
+      margin-bottom: 0;
+          margin-top: 0;
+    }
+    input[type="submit"]{
+      height: 40px;
+    }
+    #rodape{
+      display: none;
+    }
+}
+
+.demo-container {
+    margin-top: 29%;
+}
